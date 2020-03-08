@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://damp-beyond-63121.herokuapp.com/v1/task/';
+  var apiRoot = 'http://damp-beyond-63121.herokuapp.com/v1/task/getTasks/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
